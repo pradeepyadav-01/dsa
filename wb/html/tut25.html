@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and animations</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        background-color: yellow;
+    }
+
+    .box {
+        background-color: red;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation: hello;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        animation-fill-mode: alternate;
+        animation-timing-function: ease-in-out;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+
+    @keyframes hello {
+        0%{top: 0px;
+        left: 0px;
+        }
+        25%{
+            top: 250px;
+            left: 0px;
+        }
+        50%{
+            top: 250px;
+            left: 250px;
+        }
+        100%{
+            top: 250px;
+            left: 0px;
+        }
+        from {
+            width: 200px;
+        }
+
+        to {
+            width: 400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            this is box
+        </div>
+    </div>
+</body>
+
+</html>

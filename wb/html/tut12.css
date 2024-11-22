@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(70, 27, 171); /* Dark gray text color for better readability */
+}
+
+header {
+    background: rgb(0, 0, 0); /* Black background for header */
+    color: rgb(255, 255, 255); /* White text color for header */
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* White text color for navigation links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+.hero {
+    background: rgb(240, 240, 240); /* Light gray background for hero section */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgb(0, 0, 0); /* Black background for call-to-action button */
+    color: rgb(244, 18, 18); /* White text color for button */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: rgb(85, 85, 85); /* Dark gray background on hover */
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.about, .services, .contact {
+    background: rgb(0, 0, 0); /* Light gray background for sections */
+    padding: 2rem 0;
+}
+
+.services .service {
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 0.5rem;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(200, 200, 200); /* Light gray border for inputs and textarea */
+}
+
+.contact button {
+    padding: 0.5rem;
+    background: rgb(0, 0, 0); /* Black background for submit button */
+    color: rgb(255, 255, 255); /* White text color for button */
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: rgb(85, 85, 85); /* Dark gray background on hover */
+}
+
+footer {
+    background: rgb(0, 0, 0); /* Black background for footer */
+    color: rgb(255, 255, 255); /* White text color for footer */
+    text-align: center;
+    padding: 1rem 0;
+}
